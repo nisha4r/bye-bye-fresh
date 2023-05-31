@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Lucida Handwriting;
     
     
     }
@@ -26,7 +26,7 @@
         display:flex;
         justify-content: space-between;
         margin: 0px;
-        background-color: rgb(39, 193, 39);
+        background-color: 
 
         background-repeat: no-repeat;
         background-size:cover;
@@ -40,7 +40,7 @@
         
             display: flex;
             font-weight: bold;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Lucida Handwriting;
             color: rgb(244, 241, 246);
             font-size: 60px;
             justify-content: center;
@@ -68,7 +68,7 @@
     }
     
     nav ul li a {
-    color: white;
+    color: rgb(6, 6, 6);
     position:relative;
     padding: 5px 0;
     font-weight: bold;
@@ -78,7 +78,7 @@
     
     
     nav ul li a:hover{
-    color:white;
+    color:rgb(5, 4, 4);
     
     }
     
@@ -97,8 +97,14 @@
     
     nav ul li a:hover::after{
         width: 100%;
-        background-color: rgb(244, 241, 246);
+       
+         background-color: rgb(244, 241, 246);
     }
+
+ 
+   
+
+  
     
 
 
@@ -109,6 +115,8 @@
     background-image: url('./images/lime\ bckgrd.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: transparent;
+    
 
   }
   
