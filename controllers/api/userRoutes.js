@@ -1,11 +1,16 @@
 const router = require('express').Router();
-const { User } = require('../../models/User');
-const { error } = require('console');
+const { User } = require('../../models');
+
 router.post('/', async (req, res) => {
   try {
+    console.log("create login");
+    console.log(req.body.name);
+    console.log(req.body.email);
+    console.log(req.body.password);
     const userData = await User.create(req.body);
 
     req.session.save(() => {
+      console.log("save");
       req.session.user_id = userData.id;
       req.session.logged_in = true;
 
