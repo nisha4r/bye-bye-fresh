@@ -1,10 +1,11 @@
-DROP DATABASE IF EXISTS byebyefresh_db;
+DROP DATABSE IF EXISTS byebyefresh_db;
 
 CREATE DATABASE byebyefresh_db;
 
+-- Uses the byebyefresh_db database
 USE byebyefresh_db;
 
-- Creates the Recipe table
+-- Creates the Recipe table
 CREATE TABLE Recipe (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL
