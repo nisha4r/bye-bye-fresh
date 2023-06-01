@@ -17,7 +17,7 @@ CREATE TABLE Ingredient (
   name VARCHAR(255) NOT NULL
 );
 
--- Create sthe RecipeIngredient table with multiple foreign keys to allow for many-to-many relationship
+-- Creates the RecipeIngredient table with multiple foreign keys to allow for many-to-many relationship
 CREATE TABLE RecipeIngredient (
   id INT PRIMARY KEY AUTO_INCREMENT,
   recipeId INT NOT NULL,
@@ -25,3 +25,13 @@ CREATE TABLE RecipeIngredient (
   FOREIGN KEY (recipeId) REFERENCES Recipe(id),
   FOREIGN KEY (ingredientId) REFERENCES Ingredient(id)
 );
+
+-- I believe we need this to handle the user info?
+CREATE TABLE IF NOT EXISTS `user` (
+  `id` INTEGER NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(255) NOT NULL,
+  `email` VARCHAR(255) NOT NULL,
+  `password` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`id`),
+  UNIQUE (`email`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
