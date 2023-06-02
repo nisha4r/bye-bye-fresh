@@ -8,7 +8,8 @@ USE byebyefresh_db;
 -- Creates the Recipe table
 CREATE TABLE Recipe (
   id INT PRIMARY KEY AUTO_INCREMENT,
-  name VARCHAR(255) NOT NULL
+  name VARCHAR(255) NOT NULL,
+  cuisine VARCHAR(255) NOT NULL
 );
 
 -- Creates the Ingredient table
