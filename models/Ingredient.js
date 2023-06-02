@@ -1,11 +1,14 @@
-// sets up the connections and required packages
-const { Model, DataTypes } = require('sequelize');
+
+// bringing in sequelize connection 
 const sequelize = require('../config/connection');
 
-// extends the ingredient model
-class Ingredient extends Model {}
 
-//initiates the ingredient model, allows for string input, gives name ingredient
-Ingredient.init({
-  name: DataTypes.STRING,
-}, { sequelize, modelName: 'ingredient' });
+// creates the Ingredient model
+const Ingredient = sequelize.define('Ingredient', {
+  name: {
+    type: DataTypes.STRING,
+    allowNull: false
+  }
+});
+
+module.exports = Ingredient;

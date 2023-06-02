@@ -1,12 +1,15 @@
-// establishes connections and required packages
-const { Model, DataTypes } = require('sequelize');
+const { DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
+const Ingredient = require('./Ingredient');
 
+const Recipe = sequelize.define('Recipe', {
+  name: {
+    type: DataTypes.STRING,
+    allowNull: false
+  }
+});
 
-// extends the model with the class recipe
-class Recipe extends Model {}
+Recipe.belongsToMany(Ingredient, { through: 'RecipeIngredient' });
+Ingredient.belongsToMany(Recipe, { through: 'RecipeIngredient' });
 
-// initiates the recipe model, allows for string input, gives name recipe
-Recipe.init({
-  name: DataTypes.STRING,
-}, { sequelize, modelName: 'recipe' });
+module.exports = Recipe;
