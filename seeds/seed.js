@@ -6,6 +6,8 @@ const Recipe = require('../models/Recipe')
 
 // imports the ingredient model
 const Ingredient = require('../models/Ingredient')
+
+
 // allows it to read the json file in seeds
 const fs = require('fs');
 
@@ -36,6 +38,7 @@ const path = require('path');
                 // assuming all of that works, this should spit out the recipe and the ingredient(s)?
                 await createdRecipe.addIngredient(createdIngredient);
             }
+
         }
 
         console.log('Database seeding complete!');

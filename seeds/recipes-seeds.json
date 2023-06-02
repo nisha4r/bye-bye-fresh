@@ -1,7 +1,6 @@
 [
     {
         "recipe": "BEEF AU POIVRE & CHEESY BACON POTATO AU GRATIN w/ pear and pecan salad",
-        "cuisine": "European",
         "ingredients": [
             "Potatoes",
             "Black peppercorns",
@@ -21,7 +20,6 @@
     },
     {
         "recipe": "MEATLOAF A LA MOM",
-        "cuisine": "American",
         "ingredients": [
             "Potatoes",
             "Yellow onion",
@@ -37,7 +35,6 @@
     },
     {
         "recipe": "ONE-PAN SANTA FE PORK TACOS",
-        "cuisine": "Mexican",
         "ingredients": [
             "Yellow onion",
             "Cilantro",
@@ -54,7 +51,6 @@
     },
     {
         "recipe": "ARGENTINIAN BAVETTE STEAK",
-        "cuisine": "Latin",
         "ingredients": [
             "Garlic herb butter",
             "Green beans",
@@ -71,7 +67,6 @@
     },
     {
         "recipe": "STREET CART-STYLE TURKEY BOWLS",
-        "cuisine": "Middle Eastern",
         "ingredients": [
             "Turmeric",
             "Jasmine rice",
@@ -91,7 +86,6 @@
     },
     {
         "recipe": "PORK MEATLOAF PARM",
-        "cuisine": "Italian",
         "ingredients": [
             "Panko breadcrumbs",
             "Mozzarella cheese",
@@ -106,7 +100,6 @@
     },
     {
         "recipe": "TOP TOMATO SPAGHETTI WITH CHICKEN",
-        "cuisine": "Italian",
         "ingredients": [
             "Yellow onion",
             "Tomato",
@@ -124,7 +117,6 @@
     },
     {
         "recipe": "RED PEPPER JAM PORK CHOPS",
-        "cuisine": "American",
         "ingredients": [
             "Garlic cloves",
             "Broccoli florets",
@@ -140,7 +132,6 @@
     },
     {
         "recipe": "ONE-PAN BEEF ENCHILADAS",
-        "cuisine": "Mexican",
         "ingredients": [
             "Long green pepper",
             "Sour cream",
@@ -154,7 +145,6 @@
     },
     {
         "recipe": "PASTA PRIMAVERA",
-        "cuisine": "Italian",
         "ingredients": [
             "Bell pepper",
             "Zucchini",
@@ -171,7 +161,6 @@
     },
     {
         "recipe": "ONE-PAN TRATTORIA TORTELLONI BAKE",
-        "cuisine": "Italian",
         "ingredients": [
             "Garlic cloves",
             "Tomato",
@@ -187,7 +176,6 @@
     },
     {
         "recipe": "ENCHILADAS VERDES WITH PLANT-BASED PROTEIN",
-        "cuisine": "Mexican",
         "ingredients": [
             "Long green pepper",
             "Tomato",
@@ -204,7 +192,6 @@
     },
     {
         "recipe": "ONE-PAN BANH MI-STYLE BEEF TACOS",
-        "cuisine": "Asian",
         "ingredients": [
             "Lime",
             "Mini cucumber",
@@ -220,7 +207,6 @@
     },
     {
         "recipe": "CREAMY DIJON DILL CHICKEN",
-        "cuisine": "American",
         "ingredients": [
             "Potatoes",
             "Broccoli florets",
@@ -233,7 +219,6 @@
     },
     {
         "recipe": "DOWN HOME STEAK ‘N’ POTATOES",
-        "cuisine": "American",
         "ingredients": [
             "Potatoes",
             "Tomato",
@@ -248,7 +233,6 @@
     },
     {
         "recipe": "HOMESTYLE TURKEY & BISCUIT POT PIE",
-        "cuisine": "American",
         "ingredients": [
             "Carrots",
             "Celery",
@@ -264,125 +248,97 @@
     },
     {
         "recipe": "LONE STAR GREEN PEPPER MAC & CHEESE",
-        "cuisine": "Fusion",
         "ingredients": [
             "Long green pepper",
             "Tomato",
             "Garlic",
             "Cavatappi pasta",
-            "Panko breadcrumbs",
-            "Southwest spice blend",
+            "Green chili spice blend",
             "Cream sauce base",
-            "Cream cheese",
-            "Pepper jack cheese",
-            "Monterey jack cheese",
-            "Mexican cheese blend"
+            "Cheddar cheese",
+            "Mexican cheese blend",
+            "Parmesan cheese"
         ]
     },
     {
-        "recipe": "CHICKEN SAUSAGE SPAGHETTI BOLOGNESE",
-        "cuisine": "Italian",
+        "recipe": "MIXED VEGGIE BOWL",
         "ingredients": [
+            "Bell pepper",
             "Zucchini",
-            "Italian seasoning",
-            "Italian chicken sausage mix",
-            "Spaghetti",
-            "Crushed tomatoes",
-            "Chicken stock concentrate",
-            "Sour cream",
-            "Parmesan cheese"
+            "Yellow onion",
+            "Garlic",
+            "Turmeric",
+            "Quinoa",
+            "Veggie stock concentrate",
+            "Lemon",
+            "Chickpeas",
+            "Roasted red pepper sauce"
         ]
     },
     {
-        "recipe": "INDIAN-STYLE CHICKEN CURRY",
-        "cuisine": "Asian",
+        "recipe": "BLACK BEAN & CHEESE EMPANADAS",
         "ingredients": [
-            "Basmati rice",
             "Bell pepper",
             "Yellow onion",
             "Garlic",
-            "Cilantro",
-            "Chili pepper",
-            "Chicken cutlets",
-            "Yogurt",
-            "Garam masala",
-            "Curry sauce base",
-            "Paprika",
-            "Chicken stock concentrate",
-            "Sour cream"
-        ]
-    },
-    {
-        "recipe": "COCONUT CURRY CHICKEN",
-        "cuisine": "Asian",
-        "ingredients": [
-            "Basmati rice",
-            "Bell pepper",
-            "Chicken breast strips",
-            "Tomato paste",
-            "Curry powder",
-            "Paprika",
-            "Chili flakes",
-            "Coconut milk",
-            "Sour cream",
-            "Scallions"
-        ]
-    },
-    {
-        "recipe": "CHEESY SMASHED PORK BURGERS",
-        "cuisine": "American",
-        "ingredients": [
-            "Yellow onion",
-            "Potatoes",
-            "Old bay seasoning",
-            "Mayonnaise",
-            "Ketchup",
-            "Dijon mustard",
-            "Ground pork",
-            "White cheddar cheese",
-            "Potato buns"
-        ]
-    },
-    {
-        "recipe": "PLANT-BASED PROTEIN RAGU RIGATONI BAKE",
-        "cuisine": "Italian",
-        "ingredients": [
-            "Scallions",
-            "Garlic",
-            "Rigatoni pasta",
-            "Ground plant based protein",
-            "Tustan heat spice",
-            "Crushed tomatoes",
-            "Cream cheese",
-            "Italian cheese blend",
-            "Panko breadcrumbs"
-        ]
-    },
-    {
-        "recipe": "STUFFED-MEATBALL RIGATONI BAKE",
-        "cuisine": "Italian",
-        "ingredients": [
-            "Mozzarella cheese",
-            "Panko breadcrumbs",
-            "Ground beef",
-            "Tuscan heat spice",
-            "Rigatoni pasta",
-            "Marinara sauce",
-            "Parmesan cheese"
-        ]
-    },
-    {
-        "recipe": "FULLY LOADED PORK TAQUITOS",
-        "cuisine": "Mexican",
-        "ingredients": [
-            "Scallions",
-            "Tomato",
-            "Ground pork",
+            "Black beans",
             "Southwest spice blend",
             "Flour tortillas",
+            "Monterey jack cheese"
+        ]
+    },
+    {
+        "recipe": "GARLIC-PARMESAN CHICKEN",
+        "ingredients": [
+            "Potatoes",
+            "Garlic cloves",
+            "Parmesan cheese",
+            "Chicken breasts",
+            "Balsamic glaze",
+            "Mixed greens",
+            "Honey dijon dressing"
+        ]
+    },
+    {
+        "recipe": "ONE-PAN CHICKEN PARMESAN",
+        "ingredients": [
+            "Bell pepper",
+            "Tomato",
+            "Garlic cloves",
+            "Panko breadcrumbs",
+            "Parmesan cheese",
+            "Italian seasoning",
+            "Flour",
+            "Chicken breasts",
+            "Marinara sauce",
+            "Italian cheese blend"
+        ]
+    },
+    {
+        "recipe": "ONE-PAN MEDITERRANEAN BEEF",
+        "ingredients": [
+            "Yellow onion",
+            "Bell pepper",
+            "Zucchini",
+            "Garlic cloves",
+            "Ground beef",
+            "Penne pasta",
+            "Italian seasoning",
+            "Cream sauce base",
+            "Feta cheese",
+            "Kalamata olives"
+        ]
+    },
+    {
+        "recipe": "BUFFALO SPICED BURGERS",
+        "ingredients": [
+            "Potatoes",
+            "Ground beef",
+            "Buffalo spice blend",
             "Monterey jack cheese",
-            "Sour cream",
-            "Salsa verde"
+            "Hamburger buns",
+            "Mixed greens",
+            "Ranch dressing"
         ]
     }
 ]

@@ -1,4 +1,4 @@
-DROP DATABSE IF EXISTS byebyefresh_db;
+DROP DATABASE IF EXISTS byebyefresh_db;
 
 CREATE DATABASE byebyefresh_db;
 
@@ -9,11 +9,10 @@ USE byebyefresh_db;
 CREATE TABLE Recipe (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL,
-  cuisine VARCHAR(255) NOT NULL
 );
 
 -- Creates the Ingredient table
-CREATE TABLE Ingredient (
+CREATE TABLE Ingredients (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL
 );
@@ -26,6 +25,9 @@ CREATE TABLE RecipeIngredient (
   FOREIGN KEY (recipeId) REFERENCES Recipe(id),
   FOREIGN KEY (ingredientId) REFERENCES Ingredient(id)
 );
+
+
+
 
 -- I believe we need this to handle the user info?
 /* CREATE TABLE IF NOT EXISTS `user` (
