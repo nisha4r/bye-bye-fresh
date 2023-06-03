@@ -1,6 +1,7 @@
 [
     {
         "recipe": "BEEF AU POIVRE & CHEESY BACON POTATO AU GRATIN w/ pear and pecan salad",
+        "cuisine": "European",
         "ingredients": [
             "Potatoes",
             "Black peppercorns",
@@ -20,6 +21,7 @@
     },
     {
         "recipe": "MEATLOAF A LA MOM",
+        "cuisine": "American",
         "ingredients": [
             "Potatoes",
             "Yellow onion",
@@ -35,6 +37,7 @@
     },
     {
         "recipe": "ONE-PAN SANTA FE PORK TACOS",
+        "cuisine": "American",
         "ingredients": [
             "Yellow onion",
             "Cilantro",
@@ -51,6 +54,7 @@
     },
     {
         "recipe": "ARGENTINIAN BAVETTE STEAK",
+        "cuisine": "Latin",
         "ingredients": [
             "Garlic herb butter",
             "Green beans",
@@ -67,6 +71,7 @@
     },
     {
         "recipe": "STREET CART-STYLE TURKEY BOWLS",
+        "cuisine": "Middle Eastern",
         "ingredients": [
             "Turmeric",
             "Jasmine rice",
@@ -86,6 +91,7 @@
     },
     {
         "recipe": "PORK MEATLOAF PARM",
+        "cuisine": "American",
         "ingredients": [
             "Panko breadcrumbs",
             "Mozzarella cheese",
@@ -100,6 +106,7 @@
     },
     {
         "recipe": "TOP TOMATO SPAGHETTI WITH CHICKEN",
+        "cuisine": "Italian",
         "ingredients": [
             "Yellow onion",
             "Tomato",
@@ -117,6 +124,7 @@
     },
     {
         "recipe": "RED PEPPER JAM PORK CHOPS",
+        "cuisine": "American",
         "ingredients": [
             "Garlic cloves",
             "Broccoli florets",
@@ -132,6 +140,7 @@
     },
     {
         "recipe": "ONE-PAN BEEF ENCHILADAS",
+        "cuisine": "Mexican",
         "ingredients": [
             "Long green pepper",
             "Sour cream",
@@ -145,6 +154,7 @@
     },
     {
         "recipe": "PASTA PRIMAVERA",
+        "cuisine": "Italian",
         "ingredients": [
             "Bell pepper",
             "Zucchini",
@@ -161,6 +171,7 @@
     },
     {
         "recipe": "ONE-PAN TRATTORIA TORTELLONI BAKE",
+        "cuisine": "Italian",
         "ingredients": [
             "Garlic cloves",
             "Tomato",
@@ -176,6 +187,7 @@
     },
     {
         "recipe": "ENCHILADAS VERDES WITH PLANT-BASED PROTEIN",
+        "cuisine": "Mexican",
         "ingredients": [
             "Long green pepper",
             "Tomato",
@@ -192,6 +204,7 @@
     },
     {
         "recipe": "ONE-PAN BANH MI-STYLE BEEF TACOS",
+        "cuisine": "Asian",
         "ingredients": [
             "Lime",
             "Mini cucumber",
@@ -207,6 +220,7 @@
     },
     {
         "recipe": "CREAMY DIJON DILL CHICKEN",
+        "cuisine": "American",
         "ingredients": [
             "Potatoes",
             "Broccoli florets",
@@ -218,7 +232,8 @@
         ]
     },
     {
-        "recipe": "DOWN HOME STEAK ‘N’ POTATOES",
+        "recipe": "DOWN HOME STEAK N POTATOES",
+        "cuisine": "American",
         "ingredients": [
             "Potatoes",
             "Tomato",
@@ -233,6 +248,7 @@
     },
     {
         "recipe": "HOMESTYLE TURKEY & BISCUIT POT PIE",
+        "cuisine": "American",
         "ingredients": [
             "Carrots",
             "Celery",
@@ -248,6 +264,7 @@
     },
     {
         "recipe": "LONE STAR GREEN PEPPER MAC & CHEESE",
+        "cuisine": "American",
         "ingredients": [
             "Long green pepper",
             "Tomato",
@@ -262,6 +279,7 @@
     },
     {
         "recipe": "MIXED VEGGIE BOWL",
+        "cuisine": "American",
         "ingredients": [
             "Bell pepper",
             "Zucchini",
@@ -277,6 +295,7 @@
     },
     {
         "recipe": "BLACK BEAN & CHEESE EMPANADAS",
+        "cuisine": "Latin",
         "ingredients": [
             "Bell pepper",
             "Yellow onion",
@@ -289,6 +308,7 @@
     },
     {
         "recipe": "GARLIC-PARMESAN CHICKEN",
+        "cuisine": "Italian",
         "ingredients": [
             "Potatoes",
             "Garlic cloves",
@@ -301,6 +321,7 @@
     },
     {
         "recipe": "ONE-PAN CHICKEN PARMESAN",
+        "cuisine": "Italian",
         "ingredients": [
             "Bell pepper",
             "Tomato",
@@ -316,6 +337,7 @@
     },
     {
         "recipe": "ONE-PAN MEDITERRANEAN BEEF",
+        "cuisine": "Mediterranean",
         "ingredients": [
             "Yellow onion",
             "Bell pepper",
@@ -331,6 +353,7 @@
     },
     {
         "recipe": "BUFFALO SPICED BURGERS",
+        "cuisine": "American",
         "ingredients": [
             "Potatoes",
             "Ground beef",

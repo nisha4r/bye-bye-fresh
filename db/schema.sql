@@ -8,11 +8,11 @@ USE byebyefresh_db;
 -- Creates the Recipe table
 CREATE TABLE Recipe (
   id INT PRIMARY KEY AUTO_INCREMENT,
-  name VARCHAR(255) NOT NULL,
+  name VARCHAR(255) NOT NULL
 );
 
 -- Creates the Ingredient table
-CREATE TABLE Ingredients (
+CREATE TABLE Ingredient (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(255) NOT NULL
 );
@@ -26,6 +26,11 @@ CREATE TABLE RecipeIngredient (
   FOREIGN KEY (ingredientId) REFERENCES Ingredient(id)
 );
 
+CREATE TABLE CuisineCategory (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  cuisine VARCHAR(255) NOT NULL
+);
 
 
 
@@ -38,3 +43,4 @@ CREATE TABLE RecipeIngredient (
   PRIMARY KEY (`id`),
   UNIQUE (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci; */
+
