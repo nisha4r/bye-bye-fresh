@@ -1,4 +1,4 @@
-DROP DATABSE IF EXISTS byebyefresh_db;
+DROP DATABASE IF EXISTS byebyefresh_db;
 
 CREATE DATABASE byebyefresh_db;
 
@@ -26,6 +26,14 @@ CREATE TABLE RecipeIngredient (
   FOREIGN KEY (ingredientId) REFERENCES Ingredient(id)
 );
 
+CREATE TABLE CuisineCategory (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(255) NOT NULL,
+  cuisine VARCHAR(255) NOT NULL
+);
+
+
+
 -- I believe we need this to handle the user info?
 /* CREATE TABLE IF NOT EXISTS `user` (
   `id` INTEGER NOT NULL AUTO_INCREMENT,
@@ -35,3 +43,4 @@ CREATE TABLE RecipeIngredient (
   PRIMARY KEY (`id`),
   UNIQUE (`email`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci; */
+
