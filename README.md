@@ -1,38 +1,42 @@
 # bye-bye-fresh
+
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+Bye Bye Fresh is a website we created where people that have loved Hello Fresh in the past are able to access recipes and see nutritional value. Not only can you access previous recipes but if you do not see a website you have previous loved you can also add it to our database. By creating a login for out site you will be able to save recipes to your account. The whole purpose of this site is for users to be able to choose recipes they would like to cook which will then give a drop down of ingredients in each recipe chosen. From there you can choose the ingredients you do not have in your pantry and we will supply the caloric breakdown of those items. 
 
 ## Badges
 On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
 
 ## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+See screenshots below
 
 ## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+If you are looking to pull the project and utilize it accordingly. Simply clone the repo and open with an IDE.
+
+If you are looking to deploy the base root directory should work. From there you can utilize the website from your browser.
+
+
 
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+To use this project, you will either want it deployed on a website or running in a live server.
 
 ## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+For support, we do not have a designated team for this since this is a project
 
 ## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+In the future it would be nice to implement the InstaCart API which would allow users to have the ingredients to their cart which would then be delivered and fulfulled by InstaCart.
 
 ## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+Not currently taking contributions
 
 ## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+Janica Jensen               https://github.com/JanicaJensen
+Nishanthi Govindasamy       https://github.com/nisha4r
+Brendalee Alcala            https://github.com/brendaleea
+Anie Harmon                 https://github.com/anieharmon
 
 ## License
-For open source projects, say how it is licensed.
+MIT
 
 ## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+After presentation to the class the status will be officially updated
 
