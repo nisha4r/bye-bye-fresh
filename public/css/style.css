@@ -1,25 +1,181 @@
-header, .project:not(:last-child) {
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .no-button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-    color: #1b89bc;
-    text-decoration: none;
-    font-size: 100%;
-  }
-  
-  .no-button:hover {
-    color: #065b83;
-    text-decoration: underline;
-  }
-  
-  .dollar-amount {
-    color: #056605;
-    font-weight: bold;
-    margin-left: -5px;
-  }
-  
+body {
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 2rem;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.div2 {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  grid-area: 1 / 2 / 2 / 5;
+  background-color: limegreen;
+  border-radius: 5px;
+}
+
+.div2 nav {
+  padding-right: 1rem;
+
+}
+
+.div2 li {
+  display: inline;
+
+}
+
+.div3 {
+  grid-area: 2 / 1 / 3 / 2;
+  align-items: center;
+  justify-content: center;
+}
+
+.div4 {
+  grid-area: 2 / 2 / 3 / 5;
+}
+
+*/ .cuisine div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cuisine ul {
+  width: 100%;
+
+}
+
+.cuisine li {
+  display: inline;
+  padding: .25rem;
+}
+
+
+.recipelist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*
+.div5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.div6 {
+  grid-area: 3 / 2 / 4 / 5;
+}
+
+.div7 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.div8 {
+  grid-area: 4 / 2 / 5 / 5;
+}
+
+.div9 {
+  grid-area: 5 / 1 / 6 / 5;
+} */
+
+
+
+.logincontainer {
+  display: grid;
+  grid-template-columns: .75fr repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.logindiv1 {
+  grid-area: 1 / 1 / 2 / 2;
+  text-align: center;
+  justify-content: top;
+}
+
+.logindiv2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.logindiv3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+
+.appcontainer {
+  display: grid;
+  grid-template-columns: .50fr 1fr;
+  grid-template-rows: repeat(3, 1fr) .5fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 1.5rem;
+}
+
+.appdiv1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+
+
+.appdiv2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.cuisine ul {
+  justify-content: space-between;
+
+}
+
+.cuisine li {
+  display: inline;
+  justify-content: space-between;
+  padding: .5rem;
+  font-weight: bold;
+}
+
+.appdiv3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.appdiv4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.appdiv5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.appdiv6 {
+  grid-area: 3 / 2 / 4 / 3;
+  justify-content: center;
+  align-items: center;
+}
+
+.appdiv7 {
+  grid-area: 4 / 1 / 5 / 3;
+}
+
+.recipecard {
+  display: flex;
+}
+
+.footer {
+  text-align: center;
+}
