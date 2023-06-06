@@ -4,11 +4,11 @@ const sequelize = require('../config/connection');
 
 
 // creates the Ingredient model
-const Ingredient = sequelize.define('Ingredient', {
+const Ingredients = sequelize.define('Ingredients', {
   name: {
     type: DataTypes.STRING,
     allowNull: false
   }
 });
 
-module.exports = Ingredient;
+module.exports = Ingredients;

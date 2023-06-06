@@ -34,7 +34,7 @@ CREATE TABLE CuisineCategory (
 
 
 
--- I believe we need this to handle the user info?
+-- I believe we don't need this to handle the user info? It handled under user.js
 /* CREATE TABLE IF NOT EXISTS `user` (
   `id` INTEGER NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(255) NOT NULL,

@@ -1,0 +1,65 @@
+<div class="appcontainer">
+
+    <div class="appdiv1">
+
+        <h3>Choose your recipes!</h3>
+
+    </div>
+
+
+    <div class="appdiv2">
+
+        <div class="cuisine">
+            <ul class="cuisine" id="cuisine-list">
+                <li><a href="#" class="cuisine-list-button" data-cuisine="All">All</a></li>
+                <li><a href="#" class="cuisine-list-button" data-cuisine="American">American</a></li>
+                <li><a href="#" class="cuisine-list-button" data-cuisine="Asian">Asian</a></li>
+                <li><a href="#" class="cuisine-list-button" data-cuisine="Italian">Italian</a></li>
+                <li><a href="#" class="cuisine-list-button" data-cuisine="Mexican">Mexican</a></li>
+                <li><a href="#" class="cuisine-list-button" data-cuisine="Mediterranean">Mediterranean</a></li>
+                <li><a href="#" class="cuisine-list-button" data-cuisine="European">European</a></li>
+                <li><a href="#" class="cuisine-list-button" data-cuisine="Latin">Latin</a></li>
+            </ul>
+        </div>
+        <div class="recipecard" id="recipes-container">
+            {{!-- <ul>${recipeList}</ul> --}}
+        </div>
+    </div>
+
+
+    <div class="appdiv3">
+
+        <h3>Your lists:</h3>
+    </div>
+
+
+
+    <div class="appdiv4">
+
+        <div class="recipelist">
+            <div>
+                <h3>the most common</h3>
+                <ul id="recipelist-mostcommon-ul">
+                </ul>
+            </div>
+
+            <div>
+                <h3>2 or more</h3>
+                <ul id="recipelist-2ormore-ul">
+
+                </ul>
+            </div>
+
+            <div>
+                <h3>least common</h3>
+
+                <ul id="recipelist-2ormore-ul">
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="/js/getrecipes.js"></script>

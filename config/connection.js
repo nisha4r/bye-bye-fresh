@@ -1,10 +1,19 @@
 const Sequelize = require('sequelize');
 require('dotenv').config();
 
+
+function getsequelize()
+{
+  console.log(process.env.DB_NAME || "byebyefresh_db");
+  console.log(process.env.DB_USER || "root");
+  console.log(process.env.DB_PASSWORD || "pass");
+  return sequelize;
+}
+
 const sequelize = new Sequelize(
-  process.env.DB_NAME,
-  process.env.DB_USER,
-  process.env.DB_PASSWORD,
+  process.env.DB_NAME || "byebyefresh_db",
+  process.env.DB_USER || "root",
+  process.env.DB_PASSWORD || "pass",
   {
     host: 'localhost',
     dialect: 'mysql',
@@ -12,4 +21,4 @@ const sequelize = new Sequelize(
   }
 );
 
-module.exports = sequelize;
+module.exports = getsequelize();
